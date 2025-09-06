@@ -4,14 +4,14 @@
 #include <SinricProSwitch.h>
 
 // ---- WiFi Credentials ----
-const char* ssid = "Avinash's S24";        
-const char* password = "11111112"; 
+const char* ssid = "your wifi name";// only use 2.4ghz wifi       
+const char* password = "your wifi password"; 
 
 // ---- SinricPro Credentials ----
-const char* APP_KEY    = "69fd238e-7713-4540-86ef-cc310336cb07";  
-const char* APP_SECRET = "b2f3d4b6-13e7-401b-b5a0-a8909e714a27-5a94ae85-62d9-4479-a4b0-1f33e9939d94";     
-const char* deviceID_light = "6848763ef64d827f96873f94"; 
-const char* deviceID_fan   = "6848767f030990a558ad6643";     
+const char* APP_KEY    = "########-7713-1865-86ef-cc310336cb07";  // your app key and other credentials
+const char* APP_SECRET = "########-13e7-401b-b568-a8909e714a27-5a94ae85-62d9-4479-a4b0-1f33e9939d94";     
+const char* deviceID_light = "684876####4d827f96874564"; 
+const char* deviceID_fan   = "684876#####990a558a56483";     
 
 #define LIGHT_RELAY_PIN D1  
 #define FAN_RELAY_PIN   D2  
